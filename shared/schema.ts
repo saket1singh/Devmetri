@@ -1,0 +1,46 @@
+import { pgTable, text, serial, timestamp, varchar } from "drizzle-orm/pg-core";
+import { createInsertSchema } from "drizzle-zod";
+import { z } from "zod";
+
+export const contactSubmissions = pgTable("contact_submissions", {
+  id: serial("id").primaryKey(),
+  name: text("name").notNull(),
+  email: text("email").notNull(),
+  phone: text("phone"),
+  company: text("company"),
+  service: text("service"),
+  message: text("message").notNull(),
+  createdAt: timestamp("created_at").defaultNow().notNull(),
+});
+
+export const insertContactSubmissionSchema = createInsertSchema(contactSubmissions).pick({
+  name: true,
+  email: true,
+  phone: true,
+  company: true,
+  service: true,
+  message: true,
+});
+
+// Add email validation
+export const contactFormSchema = insertContactSubmissionSchema.extend({
+  email: z.string().email("Please enter a valid email address"),
+});
+
+export type InsertContactSubmission = z.infer<typeof insertContactSubmissionSchema>;
+export type ContactSubmission = typeof contactSubmissions.$inferSelect;
+
+// Keep the existing users table
+export const users = pgTable("users", {
+  id: serial("id").primaryKey(),
+  username: text("username").notNull().unique(),
+  password: text("password").notNull(),
+});
+
+export const insertUserSchema = createInsertSchema(users).pick({
+  username: true,
+  password: true,
+});
+
+export type InsertUser = z.infer<typeof insertUserSchema>;
+export type User = typeof users.$inferSelect;
