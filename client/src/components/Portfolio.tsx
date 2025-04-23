@@ -10,9 +10,9 @@ const projects = [
     category: "Shopify"
   },
   {
-    title: "Global Electronics Retailer",
-    description: "Multi-regional Magento store with ERP integration and automated inventory management.",
-    image: "https://images.unsplash.com/photo-1596742578443-7682ef7b7057?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
+    title: "Tech Gadgets Marketplace",
+    description: "Multi-regional e-commerce platform with advanced search and personalized recommendations.",
+    image: "https://images.unsplash.com/photo-1553877522-43269d4ea984?auto=format&fit=crop&w=1000&q=80",
     category: "Magento"
   },
   {

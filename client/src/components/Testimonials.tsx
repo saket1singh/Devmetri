@@ -6,21 +6,21 @@ const testimonials = [
   {
     name: "Sarah Johnson",
     role: "CEO, Fashion Forward",
-    content: "DevCraft Solutions transformed our online store. Sales increased by 45% within the first three months after launch. Their team was professional, responsive, and delivered exactly what we needed.",
+    content: "DevMetri Solutions transformed our online store. Sales increased by 45% within the first three months after launch. Their team was professional, responsive, and delivered exactly what we needed.",
     avatar: "SJ",
     rating: 5
   },
   {
     name: "Michael Torres",
     role: "Operations Director, ElectroWorld",
-    content: "The integration between our Magento store and ERP system streamlined our operations completely. Order processing time reduced by 70%. DevCraft's expertise in both systems was invaluable.",
+    content: "The integration between our Magento store and ERP system streamlined our operations completely. Order processing time reduced by 70%. DevMetri's expertise in both systems was invaluable.",
     avatar: "MT",
     rating: 5
   },
   {
     name: "Emily Chen",
     role: "Marketing Director, Urban Home",
-    content: "Our Shopify store needed a complete redesign and functionality upgrade. DevCraft delivered a beautiful, conversion-optimized site that exceeded our expectations. Customer engagement is up 60%.",
+    content: "Our Shopify store needed a complete redesign and functionality upgrade. DevMetri delivered a beautiful, conversion-optimized site that exceeded our expectations. Customer engagement is up 60%.",
     avatar: "EC",
     rating: 5
   }

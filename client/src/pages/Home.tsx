@@ -16,7 +16,7 @@ const Home = () => {
     initScrollAnimation();
     
     // Update document title
-    document.title = "DevCraft Solutions | Web Development Agency";
+    document.title = "DevMetri Solutions | Web Development Agency";
   }, []);
 
   return (

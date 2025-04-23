@@ -40,7 +40,7 @@ const About = () => {
           <div className="animate-on-scroll" style={{ animationDelay: "200ms" }}>
             <h2 className="text-3xl md:text-4xl font-bold font-heading mb-6">About Our Agency</h2>
             <p className="text-lg text-muted-foreground mb-6">
-              DevCraft Solutions is a premier digital agency specializing in e-commerce development and business systems integration. With over 10 years of experience, we've helped businesses of all sizes establish and grow their online presence.
+              DevMetri Solutions is a premier digital agency specializing in e-commerce development and business systems integration. With over 10 years of experience, we've helped businesses of all sizes establish and grow their online presence.
             </p>
             <p className="text-lg text-muted-foreground mb-8">
               Our team of experts combines technical expertise with a deep understanding of business needs to deliver solutions that drive real results. We believe in creating long-term partnerships with our clients, supporting them throughout their digital journey.

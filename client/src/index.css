@@ -14,8 +14,8 @@
     --card-foreground: 20 14.3% 4.1%;
     --border: 20 5.9% 90%;
     --input: 20 5.9% 90%;
-    --primary: 207 90% 54%;
-    --primary-foreground: 211 100% 99%;
+    --primary: 24 95% 53%;
+    --primary-foreground: 0 0% 100%;
     --secondary: 60 4.8% 95.9%;
     --secondary-foreground: 24 9.8% 10%;
     --accent: 60 4.8% 95.9%;
@@ -31,8 +31,8 @@
     --chart-5: 240 5.9% 10%;
     --sidebar-background: 0 0% 100%;
     --sidebar-foreground: 20 14.3% 4.1%;
-    --sidebar-primary: 207 90% 54%;
-    --sidebar-primary-foreground: 211 100% 99%;
+    --sidebar-primary: 24 95% 53%;
+    --sidebar-primary-foreground: 0 0% 100%;
     --sidebar-accent: 60 4.8% 95.9%;
     --sidebar-accent-foreground: 24 9.8% 10%;
     --sidebar-border: 20 5.9% 90%;
@@ -50,8 +50,8 @@
     --card-foreground: 0 0% 98%;
     --border: 240 3.7% 15.9%;
     --input: 240 3.7% 15.9%;
-    --primary: 207 90% 54%;
-    --primary-foreground: 211 100% 99%;
+    --primary: 24 95% 53%;
+    --primary-foreground: 0 0% 100%;
     --secondary: 240 3.7% 15.9%;
     --secondary-foreground: 0 0% 98%;
     --accent: 240 3.7% 15.9%;
@@ -67,8 +67,8 @@
     --chart-5: 0 0% 98%;
     --sidebar-background: 240 10% 3.9%;
     --sidebar-foreground: 0 0% 98%;
-    --sidebar-primary: 207 90% 54%;
-    --sidebar-primary-foreground: 211 100% 99%;
+    --sidebar-primary: 24 95% 53%;
+    --sidebar-primary-foreground: 0 0% 100%;
     --sidebar-accent: 240 3.7% 15.9%;
     --sidebar-accent-foreground: 0 0% 98%;
     --sidebar-border: 240 3.7% 15.9%;
@@ -117,4 +117,7 @@ h1, h2, h3, h4, h5, h6 {
 /* Base font */
 body {
   font-family: 'Inter', sans-serif;
+}
+.h-12 {
+  height: 4rem;
 }

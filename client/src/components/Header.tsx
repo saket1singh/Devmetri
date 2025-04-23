@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
+import logo from "@/assets/devmetri-logo.svg";
 
 const Header = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -35,9 +36,8 @@ const Header = () => {
     >
       <div className="container mx-auto px-4 md:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16 md:h-20">
-          <a href="#" className="flex items-center space-x-2">
-            <span className="text-2xl font-bold text-primary font-heading">DevCraft</span>
-            <span className="text-lg text-muted-foreground">Solutions</span>
+          <a href="#" className="flex items-center">
+            <img src={logo} alt="DevMetri" className="h-12 w-auto" />
           </a>
           
           <nav className="hidden md:flex items-center space-x-8">

@@ -7,7 +7,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
           <div>
             <div className="flex items-center space-x-2 mb-6">
-              <span className="text-2xl font-bold text-white font-heading">DevCraft</span>
+              <span className="text-2xl font-bold text-white font-heading">DevMetri</span>
               <span className="text-lg text-slate-400">Solutions</span>
             </div>
             <p className="text-slate-400 mb-6">
@@ -66,7 +66,7 @@ const Footer = () => {
               </li>
               <li className="flex items-center">
                 <Mail className="h-5 w-5 mr-2 text-slate-400" />
-                <span className="text-slate-400">info@devcraftsolutions.com</span>
+                <span className="text-slate-400">info@devmetrisolutions.com</span>
               </li>
             </ul>
           </div>
@@ -75,7 +75,7 @@ const Footer = () => {
         <div className="border-t border-slate-800 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-slate-400 text-sm mb-4 md:mb-0">
-              &copy; {new Date().getFullYear()} DevCraft Solutions. All rights reserved.
+              &copy; {new Date().getFullYear()} DevMetri Solutions. All rights reserved.
             </p>
             <div className="flex space-x-6 text-sm">
               <a href="#" className="text-slate-400 hover:text-white transition-colors">Privacy Policy</a>

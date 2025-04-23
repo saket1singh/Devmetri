@@ -19,7 +19,7 @@ function Router() {
 function App() {
   return (
     <QueryClientProvider client={queryClient}>
-      <ThemeProvider defaultTheme="light" storageKey="devcraft-theme">
+      <ThemeProvider defaultTheme="light" storageKey="devmetri-theme">
         <TooltipProvider>
           <Toaster />
           <Router />
